@@ -16,20 +16,7 @@
     width: 60px;
    ;
 }
-.form-control {
-    border-radius: 3px;
-    width: 300px;
-    margin-left: 20px;
-    border: none;
-}
 
-.search-icon {
-    position: absolute;
-    z-index: 10;
-    right: 68%;
-    top: 100px;
-    color: #5BC43B;
-}
 .item {
     margin: 0px 30px;
     text-align: center;  

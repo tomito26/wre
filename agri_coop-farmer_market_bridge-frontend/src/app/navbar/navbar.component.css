@@ -1,7 +1,11 @@
 .form-control {
     border-radius: 3px;
-    width: 300px;
+    width: 200px;
+    margin-top: 2px;
     margin-left: 20px;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
 }
 .collapse li {
     padding: 5px;
@@ -13,11 +17,10 @@
     transition: all 0.2s ease-in-out;
     color: #5BC43B;
 }
-
 .search-icon {
     position: absolute;
     z-index: 10;
-    right: 28%;
-    top: 30px;
+    right: 33%;
+    top: 35px;
     color: #5BC43B;
 }

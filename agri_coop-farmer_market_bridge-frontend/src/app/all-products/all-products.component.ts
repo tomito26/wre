@@ -10,7 +10,7 @@ export class AllProductsComponent implements OnInit {
   public productList : any ;
   public filterCategory : any
   searchKey:string =""; 
-  public searchTerm !: string;
+
 
   constructor(private api : ApiService, private cartService : CartService) { }
 
@@ -45,10 +45,4 @@ export class AllProductsComponent implements OnInit {
     })
   }
 
-
-  search(event:any){
-    this.searchTerm = (event.target as HTMLInputElement).value;
-    console.log(this.searchTerm);
-    this.cartService.search.next(this.searchTerm);
-  }
 }
