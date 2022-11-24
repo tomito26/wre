@@ -15,6 +15,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { NgxMaskModule } from 'ngx-mask';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CartComponent } from './cart/cart.component';
+import { AllProductsComponent } from './all-products/all-products.component';
 
 @NgModule({
   declarations: [
