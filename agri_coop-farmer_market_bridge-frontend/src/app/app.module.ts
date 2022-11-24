@@ -16,7 +16,7 @@ import { NgxMaskModule } from 'ngx-mask';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CartComponent } from './cart/cart.component';
 import { AllProductsComponent } from './all-products/all-products.component';
-
+import { FilterPipe } from './filter.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +29,7 @@ import { AllProductsComponent } from './all-products/all-products.component';
     NotfoundComponent,
     AllProductsComponent,
     CartComponent,
+       FilterPipe
   ],
   imports: [
     BrowserModule,
