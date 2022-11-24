@@ -1,0 +1,91 @@
+
+.contactus {
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.contactus form input {
+    background-color: transparent;
+    color: #fff;
+}
+
+.contactus form textarea {
+    background-color: transparent;
+    color: #fff;
+}
+#category{
+    padding-top: 60px;
+    /* background-color: white; */
+}
+.category-container{
+    padding:5px 20px;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dispCategory{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    gap:10px;
+}
+.cards{
+    background-color: white;
+    padding:20px;
+    color:black;
+    border-radius: 10px;
+    border: solid 1px #191341;
+}
+
+.about_section {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #fff;
+    color: #202021;
+    padding: 55px 0;
+}
+
+.about_section .section_heading h4 {
+    background-color: #202021;
+    color: #5BC43B;
+    display: inline-block;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+.about_section .section_heading h2 {
+    background-color: #5BC43B;
+    display: inline-block;
+    padding: 22px 15px;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 23px;
+    
+}
+
+.about_b h3 {
+    text-transform: uppercase;
+}
+
+.why_info i {
+    color: #5BC43B;
+    margin-right: 10px;
+}
