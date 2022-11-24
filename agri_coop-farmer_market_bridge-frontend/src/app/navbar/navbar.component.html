@@ -1,11 +1,11 @@
 <nav class="navbar navbar-expand-lg shadow-lg p-3 text-light navbar-dark rounded" style="background-color: #202021;" >
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="../../assets/bg1.png" alt="" width="30" height="30" class="d-inline-block align-text-top img-fluid"
+        <img src="../../assets/bg1.png" alt="" width="40" height="40" class="d-inline-block align-text-top img-fluid"
           style="margin-top: -2%;">
         <span style="color: #fff;" class="">
           Farmers</span>
-        <span style="color:  #5BC43B;" class="fw-bold">Market </span>
+        <span style="color:  #5BC43B; font-size: 21px;" class="fw-bold m-2">Market </span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,7 +14,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="font-size: 18px; font-weight: 500;">
           <li class="nav-item">
-            <a class="nav-link" routerLink="" routerLinkActive="active" href="#">
+            <a class="nav-link" routerLink="" routerLinkActive="active">
               Home
             </a>
           </li>
@@ -24,41 +24,20 @@
             </a>
           </li>
           <li class="nav-item">
-            <div class="form-group">
-              <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
-          </div>
-          <span class="fas fa-search search-icon"></span>
+             <div class="form-group">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
+            </div>
+             <span class="fas fa-search search-icon"></span>
           </li>
         </ul>
    
         <div class="d-flex nav-item">
-          <button routerLink="cart" class="btn btn-primary">
-            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+          <button routerLink="cart" class="btn btn-dark">
+            <i style="color:  #5BC43B; font-size: 30px;" class="fas fa-cart-plus"></i>
             <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
         </button>
         </div>
       </div>
     </div>
   </nav>
-<!-- 
-  <header>
-    <div class="navbar navbar-dark bg-primary shadow-sm">
-        <div class="navbar-brand align-item-center d-flex">
-            <i style="font-size: 40px;" class="fas fa-shipping-fast">&nbsp;
-                
-            </i>
-            <strong style="font-size: 30px;">Flipkart</strong>
-            <div class="form-group">
-                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
-            </div>
-            <span class="fas fa-search search-icon"></span>
 
-
-        </div>
-        <button routerLink="cart" class="btn btn-primary">
-            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
-            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
-        </button>
-    </div>
-</header>
- -->

@@ -1,55 +1,12 @@
-<!-- <div class="banner">
-    <div class="container">
-        <div class="header">
-          <div class="" >
-            <h1>All Products</h1>
-             <!-- <a routerLink="/signup" class="btn btn-lg btn-outline-success">GET STARTED</a> -
-           </div>
-        </div>
-    </div>
-</div>
-<div id="category">
-    <div class="category-container" style=" padding:0px 150px;"><h2>ALL PRODUCTS</h2></div>
-    <div class="search">
-        <input type="text" placeholder="Input product name" id="">
-        <button>search</button>
-    </div>
-    <div class="dispCategory" id="dispCategory">
-        <div class="cards">
-            <h4>Cereals</h4>
-            <img src="https://cdn.pixabay.com/photo/2016/12/27/15/48/cobs-1934194__340.jpg" alt="" width="300vw" height="100vh"><br>
-            <button class="btn btn-primary" routerLink="/requests">20 Ksh</button>
-        </div>
-        <div class="cards">
-            <h4>Vegetables</h4>
-            <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/vegetables-1238252__340.jpg" alt=""  width="300vw" height="100vh"><br>
-            <button class="btn btn-primary" routerLink="/requests">20 Ksh</button>
-        </div>
-        <div class="cards">
-            <h4>Fruits</h4>
-            <img src="https://cdn.pixabay.com/photo/2018/01/17/22/24/strawberries-3089148__340.jpg" alt=""  width="300vw" height="100vh"><br>
-            <button class="btn btn-primary" routerLink="/requests">20 Ksh</button>
-        </div>
-        <div class="cards">
-            <h4>Legumes</h4>
-            <img src="https://cdn.pixabay.com/photo/2014/02/06/17/53/beans-260210__340.jpg" alt="" width="300vw" height="100vh"><br>
-            <button class="btn btn-primary" routerLink="/requests">20 Ksh</button>
-        </div>
-        <div class="cards">
-            <h4>Beverages</h4>
-            <img src="https://cdn.pixabay.com/photo/2016/05/06/09/04/leaf-1375470__340.jpg" alt=""  width="300vw" height="100vh"><br>
-            <button class="btn btn-primary" routerLink="/requests">20 Ksh</button>
-        </div>
-        <div class="cards">
-            <h4>Grains</h4>
-            <img src="https://cdn.pixabay.com/photo/2014/07/02/06/47/wheat-381848__340.jpg" alt=""  width="300vw" height="100vh"><br>
-            <button class="btn btn-primary" routerLink="/requests">20 Ksh</button>
-        </div>
-    </div>
-</div> -->
 
-<div class="card-top container-fluid">
-    <div class="container d-flex">
+<!-- <div class="container mt-1">
+    <div class="form-group">
+        <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
+       </div>
+    <span class="fas fa-search search-icon"></span>
+</div> -->
+<div class="card-top container-fluid mt-1">
+    <div class="container d-flex ">
         <div class="item">
             <a (click)="filter('')">
                 <img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" alt="">
@@ -80,7 +37,7 @@
 <div class="container">
     <div class="row">
         <ng-container *ngFor="let item of filterCategory | filter:searchKey:'title'">
-            <div class="card col-md-3">
+            <div class="card col-md-4 mt-2">
                 <img src="{{item.image}}" alt="">
                 <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.title}}</h5>
                 <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.description}}</p>

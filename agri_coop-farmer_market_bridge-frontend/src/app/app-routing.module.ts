@@ -11,7 +11,7 @@ import { CartComponent } from './cart/cart.component';
 const routes: Routes = [
   
  { path: '', redirectTo:"/homepage", pathMatch:"full"},
-  // {path:'homepage',component:HomepageComponent},
+  {path:'homepage',component:HomepageComponent},
   {path:'login',component:LoginComponent},
   {path:'signup',component:SignupComponent},
   {path: 'requests', component: RequestedProductsComponent},
