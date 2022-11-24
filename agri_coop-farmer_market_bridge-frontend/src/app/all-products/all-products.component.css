@@ -14,7 +14,7 @@
 
 .item img {
     width: 60px;
-   ;
+   
 }
 
 .item {
@@ -27,7 +27,9 @@
 }
 
 .card {
-    padding: 5px;
-    /* height: 500px; */
+    padding: 20px;
+    border-radius: 10px;
+    /* border: none; */
+    /* height: 300px; */
     /* margin: 2px; */
 }

@@ -7,14 +7,14 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-    padding: 60px 0;
+    padding: 5px 0;
     position: relative;
     overflow: hidden;
     z-index: 1;
 }
 .contactus form input {
     background-color: transparent;
-    color: #fff;
+    color: #202021;
 }
 
 .contactus form textarea {
