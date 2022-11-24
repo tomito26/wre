@@ -8,23 +8,39 @@ body{
 .banner {
    width: 100%;
    background-size: cover;
-   padding: 130px 0;
-   align-items: center;
-   /* background-image: url(../../assets/bhg.jpg); */
-   background-image: url("https://media.istockphoto.com/id/1373228664/photo/shot-of-an-unrecognisable-woman-using-a-digital-tablet-while-working-on-a-farm.jpg?b=1&s=170667a&w=0&k=20&c=EZnVMy1mGic9E_Z2EWvH18RHTlJrmeQPhZDqstThjH8=");
-   height: 80vh;
-   text-align: center;
+   padding: 130px 0px;
+   background-image: url(./assets/slider1.jpg);
+   height: 90vh;
    color: #202021;
 }
 
+.about_image {
+    background-image: url('./assets/c2.webp');
+    background-repeat: no-repeat;
+    background-position: right center;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 20px;
+    top: 180px;
+    position: absolute;
+    z-index: -1;
+}
 
-.header h4 {
-   margin-top: 3%;
+.header h1 {
+   margin-top: 1%;
    color: black;
+   font-size: 60px;
+   font-weight: 500;
+   text-transform: capitalize;
+   letter-spacing: 0.00714em;
+    margin-left:10%;
+} 
+.header h5 {
    font-size: 20px;
    font-weight: 400;
    text-transform: capitalize;
-   letter-spacing: 0.00714em;
+   margin-left:10%;
 } 
 .eyeicon {
     position: absolute;
