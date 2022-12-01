@@ -35,12 +35,12 @@
             <ng-container *ngFor="let item of filterCategory | filter:searchKey:'title'">
                 <div class="card col-md-3 mt-2 m-3">
                     <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
-                        {{item.title}}</h5>
-                    <img src="{{item.image}}" style="width: 150px;" alt="">
+                        {{item.name}}</h5>
+                    <img src="{{item.images}}" style="width: 150px;" alt="">
                    <hr>
                     <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
                         {{item.description}}</p>
-                    <p><strong>Price:</strong> ${{item.price}}</p>
+                    <p><strong>Price:</strong> Ksh.{{item.price}}</p>
                     <button class="btn button_1" (click)=addtocart(item)>Add to cart</button>
                 </div>
             </ng-container>
