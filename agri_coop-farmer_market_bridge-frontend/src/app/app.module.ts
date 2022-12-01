@@ -17,6 +17,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { CartComponent } from './cart/cart.component';
 import { AllProductsComponent } from './all-products/all-products.component';
 import { FilterPipe } from './filter.pipe';
+import { ProfileComponent } from './profile/profile.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +31,9 @@ import { FilterPipe } from './filter.pipe';
     NotfoundComponent,
     AllProductsComponent,
     CartComponent,
-       FilterPipe
+       FilterPipe,
+       ProfileComponent,
+       CheckoutComponent
   ],
   imports: [
     BrowserModule,
