@@ -9,7 +9,6 @@ export class ApiService {
   constructor(private http : HttpClient) { }
 
   getProduct(){
-    // return this.http.get<any>("https://fakestoreapi.com/product")
     return this.http.get<any>("https://web-production-82c6.up.railway.app/client/products/all")
     .pipe(map((res:any)=>{
       return res;
